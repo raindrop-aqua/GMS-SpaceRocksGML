@@ -1,10 +1,14 @@
 score += 10;
 
-instance_destroy();
 
 with (other) {
 	instance_destroy();	
-	
+
+	if (audio_is_playing(snd_die_asteroid)) {
+		audio_stop_sound(snd_die_asteroid);
+	}
+	audio_play_sound(snd_die_asteroid, 1, false);
+
 	if (sprite_index == spr_asteroid_huge) {
 		repeat(2) {
 			var new_asteroid = instance_create_layer(x, y, "Instances", obj_asteroid);

@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "005b986c-cb19-40ea-a0c3-edc12aaeb7b9",
+            "Value": {
+                "id": "2a16044a-87c5-490a-a009-a92185029170",
+                "resourcePath": "sounds\\snd_space\\snd_space.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "011ec16f-d592-4ac4-82ce-cc123227e2f6",
             "Value": {
                 "id": "2d533a5b-9a11-4429-bbae-bd5ede152a9c",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "68765712-9526-4243-ad75-1105a6d83272",
+            "Value": {
+                "id": "2f08b1cd-64f5-4dcb-9d05-c294444b382e",
+                "resourcePath": "sounds\\snd_die_asteroid\\snd_die_asteroid.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "761fa056-7119-4509-a347-609e95df0766",
             "Value": {
                 "id": "5156913a-a7e2-41a4-b246-222978e629c3",
@@ -167,11 +183,27 @@
             }
         },
         {
+            "Key": "7dab7f2c-74a8-49b2-aca5-1408d054fa80",
+            "Value": {
+                "id": "84767250-6b4f-449b-81a0-7600faf74f51",
+                "resourcePath": "sounds\\snd_die_ship\\snd_die_ship.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "81c15306-de44-4aa8-ad95-d7f2f5766c72",
             "Value": {
                 "id": "036a93c8-3e39-46fb-b083-e791493f2310",
                 "resourcePath": "views\\81c15306-de44-4aa8-ad95-d7f2f5766c72.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "831b1502-c70e-44c4-a70c-e2e8b7db907c",
+            "Value": {
+                "id": "7e5bebe0-ac07-44f8-b9d3-e48250367fba",
+                "resourcePath": "sounds\\snd_shot\\snd_shot.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -284,6 +316,14 @@
                 "id": "4aab2b06-e6dc-4fbe-8134-0a967310844c",
                 "resourcePath": "views\\f70a20f6-f34f-40e8-8918-8db00dd28d41.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ff974dc8-1c24-4d8b-857a-6a748d32f9b0",
+            "Value": {
+                "id": "3bb99d25-4714-45cc-9157-b18cee119af8",
+                "resourcePath": "sounds\\snd_gameover\\snd_gameover.yy",
+                "resourceType": "GMSound"
             }
         }
     ],
